@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = com.example.\
+    bookcatalog.config.TestContainersSpringContextCustomizerFactory,com.example.\
+    bookcatalog.config.KafkaTestContainersSpringContextCustomizerFactory
