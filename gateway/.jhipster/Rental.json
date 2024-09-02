@@ -1,0 +1,31 @@
+{
+  "annotations": {
+    "changelogDate": "20240901171908"
+  },
+  "applications": "*",
+  "clientRootFolder": "rental",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "retalStatus",
+      "fieldType": "RentalStatus",
+      "fieldValues": "RENT_AVAILABLE,RENT_UNAVAILABLE"
+    }
+  ],
+  "microserviceName": "rental",
+  "microservicePath": "/Users/yoodongjin/Desktop/dev/study/msa-study/rental",
+  "name": "Rental",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

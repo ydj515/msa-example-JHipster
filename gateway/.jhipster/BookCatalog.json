@@ -1,0 +1,40 @@
+{
+  "annotations": {
+    "changelogDate": "20240901142844"
+  },
+  "clientRootFolder": "bookCatalog",
+  "databaseType": "mongodb",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "author",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bookId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "rentCnt",
+      "fieldType": "Long"
+    }
+  ],
+  "microserviceName": "bookCatalog",
+  "microservicePath": "/Users/yoodongjin/Desktop/dev/study/msa-study/bookCatalog",
+  "name": "BookCatalog",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

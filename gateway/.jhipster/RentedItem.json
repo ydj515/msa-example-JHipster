@@ -1,0 +1,41 @@
+{
+  "annotations": {
+    "changelogDate": "20240901171909"
+  },
+  "applications": "*",
+  "clientRootFolder": "rental",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "bookId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "rentedDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "duDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "microserviceName": "rental",
+  "microservicePath": "/Users/yoodongjin/Desktop/dev/study/msa-study/rental",
+  "name": "RentedItem",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "rental",
+      "relationshipName": "rental",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
